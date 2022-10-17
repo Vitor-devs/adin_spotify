@@ -66,3 +66,28 @@ ul> li,a > span{
     text-align: center;
 }
 
+#main{
+    padding-top: 30px;
+
+}
+
+#main > label {
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+#pesquisa{
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    color: black;
+}
+
+#btn{
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 15px 20px;
+    color: black;
+}
