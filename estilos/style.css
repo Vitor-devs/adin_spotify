@@ -14,27 +14,54 @@ branco
 
 */
 
-
-body{
-    background-color: #313131;
-    background-image: linear-gradient(to bottom, #313131, black);
-    background-repeat: no-repeat;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+body{
+    background-color: black;
+}
+
+header{
+    background-color: #313131;
+    background-image: linear-gradient(to right, black, #282727);
+    background-repeat: no-repeat;
+    color: white;
+    padding: 20px;
+}
+
 
 ul{
     display: flex;
 
 }
 
-ul > li{
+ul > li,a{
     list-style-type: none;
-    padding-right: 50px;
+    margin-right: 50px;
+}
 
+ul> li,a > span{
+    padding-right: 6px;
 }
 
 #logo{
     padding: 0;
     height: 30px;
 }
+
+#menu_esq{
+    padding-left: 5px;
+    float: left;
+    width: 27%;
+    line-height: 2em;
+    background-color: #28272794;
+    background-image: linear-gradient(to right, black, rgb(16, 15, 15));
+
+    border-radius: 10px;
+}
+
