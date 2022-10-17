@@ -23,7 +23,7 @@ branco
 }
 
 body{
-    background-color: black;
+    background-color: white;
 }
 
 header{
@@ -61,7 +61,8 @@ ul> li,a > span{
     line-height: 2em;
     background-color: #28272794;
     background-image: linear-gradient(to right, black, rgb(16, 15, 15));
-
-    border-radius: 10px;
+    height: 100vh;
+    border-radius: 0px;
+    text-align: center;
 }
 
