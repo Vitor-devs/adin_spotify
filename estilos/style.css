@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Gudea&display=swap');
+
 /*
 verde
 #1DB954
@@ -19,7 +21,8 @@ branco
     margin: 0;
     box-sizing: border-box;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Gudea', sans-serif;
+
 }
 
 body{
@@ -32,6 +35,7 @@ header{
     background-repeat: no-repeat;
     color: white;
     padding: 20px;
+    
 }
 
 
@@ -55,6 +59,7 @@ ul> li,a > span{
 }
 
 #menu_esq{
+    padding-top: 15px;
     padding-left: 5px;
     float: left;
     width: 27%;
@@ -81,6 +86,7 @@ ul> li,a > span{
     display: block;
     margin: 0 auto;
     padding: 20px;
+    border-radius: 10px;
     color: black;
 }
 
@@ -90,4 +96,22 @@ ul> li,a > span{
     margin-top: 20px;
     padding: 15px 20px;
     color: black;
+    border-radius: 10px;
+}
+
+#btn:hover{
+    background-color: #1DB954;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#txtap{
+    font-size: 1.5em;
 }
